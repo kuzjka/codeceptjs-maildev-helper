@@ -1,0 +1,28 @@
+{
+  "name": "codeceptjs-maildev-helper",
+  "version": "0.0.1",
+  "description": "Maildev integration for CodeceptJS",
+  "main": "maildev_helper.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuzjka/codeceptjs-maildev-helper.git"
+  },
+  "keywords": [
+    "codeceptjs",
+    "maildev",
+    "helper"
+  ],
+  "author": "Ihor Kuzmanenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kuzjka/codeceptjs-maildev-helper/issues"
+  },
+  "homepage": "https://github.com/kuzjka/codeceptjs-maildev-helper#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "maildev": "^1.0.0-rc3"
+  }
+}
