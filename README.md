@@ -60,4 +60,4 @@ You may register more recepient addresses by adding more `I.haveMailbox()` calls
 
 ## License
 
-MIT © [Thiago Delgado Pinto](https://github.com/thiagodp)
+MIT
