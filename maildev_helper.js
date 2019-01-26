@@ -34,7 +34,9 @@ class MaildevHelper extends Helper {
 
   _startMaildev() {
     this.maildev = new MailDev({
-      smtp: this.port
+      smtp: this.port,
+      ip:"127.0.0.1",
+      disableWeb: true
     });
     this.maildev.listen((err) => {
       if (err) console.error("Maildev cannot listen on " + this.port + ": " + err);
