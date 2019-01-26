@@ -28,7 +28,8 @@ class MaildevHelper extends Helper {
         } else {
           console.debug('Maildev stopped');
         }
-      })
+      });
+      this.maildev = null;
     }
   }
 
